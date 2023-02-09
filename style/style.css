@@ -1,0 +1,31 @@
+body {
+  margin: 0px;
+  background-color: #1F1E1F;
+}
+
+.masonry-layout {
+  margin: 1em;
+  -webkit-columns: 4 280px;
+          columns: 4 280px;
+  -webkit-column-gap: 1em;
+          column-gap: 1em;
+}
+
+.masonry-layout img {
+  -webkit-filter: opacity(70%);
+          filter: opacity(70%);
+  display: block;
+  max-width: 100%;
+  margin-bottom: 1em;
+  border-radius: 3px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.masonry-layout img:hover {
+  -webkit-filter: opacity(100%);
+          filter: opacity(100%);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+/*# sourceMappingURL=style.css.map */

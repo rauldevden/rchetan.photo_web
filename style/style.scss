@@ -1,0 +1,32 @@
+
+$gap: 1em;
+
+$dark-color: #1F1E1F;
+$light-color: #F9F1F2;
+$contrast-color: #548C7E;
+
+
+body{
+    margin: 0px;
+    background-color: $dark-color;
+}
+
+.masonry-layout{
+    margin: 1em;
+
+    columns: 4 280px;
+    column-gap: $gap;
+
+    img{
+        filter: opacity(70%);
+        display: block;
+        max-width: 100%;
+        margin-bottom: $gap;
+        border-radius: 3px;
+        transition: 0.1s;
+    }
+    img:hover{
+        filter: opacity(100%);
+        transform: scale(1.05);
+    }
+}
