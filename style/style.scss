@@ -18,7 +18,6 @@ body{
     column-gap: $gap;
 
     img{
-        filter: opacity(70%);
         display: block;
         max-width: 100%;
         margin-bottom: $gap;
@@ -26,7 +25,6 @@ body{
         transition: 0.1s;
     }
     img:hover{
-        filter: opacity(100%);
-        transform: scale(1.05);
+        transform: scale(1.02);
     }
 }

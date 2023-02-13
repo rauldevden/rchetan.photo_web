@@ -12,8 +12,6 @@ body {
 }
 
 .masonry-layout img {
-  -webkit-filter: opacity(70%);
-          filter: opacity(70%);
   display: block;
   max-width: 100%;
   margin-bottom: 1em;
@@ -23,9 +21,7 @@ body {
 }
 
 .masonry-layout img:hover {
-  -webkit-filter: opacity(100%);
-          filter: opacity(100%);
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 /*# sourceMappingURL=style.css.map */
