@@ -28,3 +28,33 @@ body{
         transform: scale(1.02);
     }
 }
+
+.main-menu{
+   
+    margin: 1em;
+
+    columns: 3 280px;
+    column-gap: $gap;
+
+    img{
+        display: block;
+        max-width: 100%;
+        height: 80%;
+        margin-bottom: $gap;
+        border-radius: 3px;
+        transition: 0.2s;
+    }
+    img:hover{
+        filter: brightness(30%)
+    }
+
+    div{
+        position: relative;
+        text-align: center;
+        p{
+            display: block;
+            color: $light-color;
+            top:50%;
+        }
+    }
+}
