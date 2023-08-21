@@ -18,11 +18,15 @@ body {
   border-radius: 3px;
   -webkit-transition: 0.1s;
   transition: 0.1s;
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
 }
 
 .masonry-layout img:hover {
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
 }
 
 .main-menu {

@@ -10,9 +10,9 @@ document.addEventListener("DOMContentLoaded", function(){
 
     // console.log(imageDisplayHTML);
 
-    // loadGallery('morenodiego_0');
+    loadGallery('javitor_0');
 
-    loadMainMenu();
+    // loadMainMenu();
 
     function loadMainMenu(){
 
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function(){
             for (x of folders) {
                 let title = x.title;
 
-                // console.log(`FOLDER: ${title}`);
+                console.log(`FOLDER: ${title}`);
 
                 let xhr = new XMLHttpRequest();
                 xhr.open("GET", `/assets/${title}`, true);
@@ -68,6 +68,7 @@ document.addEventListener("DOMContentLoaded", function(){
         }
         xhr.send()
 
+        console.log(mainMenuImages);
         console.log(mainMenuImages);
         mainMenuImages.forEach(coverImage =>{
             console.log(coverImage);
