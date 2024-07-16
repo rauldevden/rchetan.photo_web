@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
     // console.log(imageDisplayHTML);
 
-    loadGallery('javitor_0');
+    loadGallery('automotiva_0');
 
     // loadMainMenu();
 

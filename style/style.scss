@@ -23,11 +23,11 @@ body{
         margin-bottom: $gap;
         border-radius: 3px;
         transition: 0.1s;
-        filter: blur(2px)
+        // filter: blur(2px)
     }
     img:hover{
         transform: scale(1.02);
-        filter: blur(0px)
+        // filter: blur(0px)
     }
 }
 
